@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>get data from api</title>
+</head>
+<body>
+    
+    <section class="apiTest">
+        <h1>Fake API Test</h1>
+        <form>
+        <label>Enter ID</label>
+        <input type="number" max="100" id="prdId">
+        <input type="button" id="getPrd" value="get my product" onclick="getprdsById()">
+        <span>OR</span>
+        <input type="button" id="getAll" value="display all products" onclick="getprds()">
+        </form>
+
+        <table id="table" cellspacing="0">
+    
+        </table>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

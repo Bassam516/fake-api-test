@@ -1,0 +1,63 @@
+.apiTest {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+.apiTest form{
+    text-align: center;
+}
+.apiTest form span{
+    display: block;
+    margin: 10px auto;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.apiTest form label{
+    display: block;
+    margin: 5px 0;
+}
+.apiTest form input[type = number]{
+    height: 25px;
+    display: inline-block;
+}
+.apiTest form input[type = button]{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.apiTest form input[type = button]:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.apiTest table{
+    margin: 20px 0;
+    border: 0;
+}
+.apiTest table th{
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+    padding: 15px;
+    border: 1px solid rgb(219, 219, 219) ;
+}
+.apiTest table td{
+    border: 1px solid rgb(219, 219, 219) ;
+    padding: 5px ;
+}
+
